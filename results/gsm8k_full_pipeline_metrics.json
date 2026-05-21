@@ -1,0 +1,57 @@
+{
+  "n": 500,
+  "baseline_a_tsr": 0.966,
+  "baseline_b_tsr": 0.956,
+  "majority_tsr": 0.968,
+  "pipeline_tsr": 0.996,
+  "tsr_improvement": 0.03,
+  "fdr": 1.0,
+  "fpr": 0.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "verif_tp": 23,
+  "verif_fp": 0,
+  "verif_tn": 477,
+  "verif_fn": 0,
+  "rsr": 0.9130434782608695,
+  "rsr_num": 21,
+  "rsr_den": 23,
+  "aat": 1.056,
+  "failure_type_counts": {
+    "MISSING_CONSTRAINT": 2,
+    "MISREAD_PROBLEM": 22,
+    "LOGIC_GAP": 5,
+    "ARITHMETIC_ERROR": 1
+  },
+  "failure_type_recovered": {
+    "MISSING_CONSTRAINT": 2,
+    "MISREAD_PROBLEM": 16,
+    "LOGIC_GAP": 5,
+    "ARITHMETIC_ERROR": 1
+  },
+  "surgical_attempts": 6,
+  "surgical_recovered": 6,
+  "pipeline_state": {
+    "taxonomy": [
+      "ARITHMETIC_ERROR",
+      "MISREAD_PROBLEM",
+      "MISSING_CONSTRAINT",
+      "LOGIC_GAP",
+      "KNOWLEDGE_GAP"
+    ],
+    "taxonomy_evolution_log": [],
+    "memory_size": 7,
+    "estimator_state": {
+      "('ARITHMETIC_ERROR', 'gsm8k')": 0.786,
+      "('MISREAD_PROBLEM', 'gsm8k')": 0.607,
+      "('MISSING_CONSTRAINT', 'gsm8k')": 0.5,
+      "('LOGIC_GAP', 'gsm8k')": 0.429,
+      "('KNOWLEDGE_GAP', 'gsm8k')": 0.214
+    },
+    "total_llm_calls": 625,
+    "approx_tokens": 228576
+  },
+  "config_name": "full_pipeline",
+  "domain": "gsm8k"
+}

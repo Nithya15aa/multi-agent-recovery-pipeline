@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering
+\caption{Main Results: Task Success Rate across domains and methods. $\uparrow$ indicates improvement over Single Pass. Bold indicates best result per domain.}
+\label{tab:main_results}
+\small
+\begin{tabular}{lccc}
+\toprule
+Method & GSM8K & ARC-Challenge & BoolQ \\
+\midrule
+  Single Pass & 96.6% & 96.5% & 88.0% \\
+  + Verification & 95.6% & 97.0% & 94.0% \\
+  Majority Vote (k=3) & 96.8% & 96.5% & 88.0% \\
+  Full Pipeline (Ours) & \textbf{99.6%} & \textbf{100.0%} & \textbf{96.0%} \\
+\midrule
+  $\Delta$ (Ours $-$ Single Pass) & +3.0% & +3.5% & +8.0% \\
+\bottomrule
+\end{tabular}
+\end{table}

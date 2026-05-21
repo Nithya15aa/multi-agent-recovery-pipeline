@@ -1,0 +1,51 @@
+index,question_preview,ground_truth,baseline_a_output,baseline_a_correct,baseline_b_output,baseline_b_correct,majority_output,majority_correct,first_attempt_output,first_attempt_correct,verif_flagged_invalid,failure_types,pipeline_output,pipeline_attempts,pipeline_correct,recovery_triggered,recovery_succeeded,surgical_used,recoverability_scores,failure_memory_size
+0,"Passage: All biomass goes through at least some of these steps: it needs to be grown, collected, dri",no,no,True,no,True,no,True,no,True,False,NONE,no,1,True,False,False,False,[],0
+1,"Passage: Property tax or 'house tax' is a local tax on buildings, along with appurtenant land. It is",yes,yes,True,yes,True,yes,True,yes,True,False,NONE,yes,1,True,False,False,False,[],0
+2,Passage: Phantom pain sensations are described as perceptions that an individual experiences relatin,yes,yes,True,yes,True,yes,True,yes,True,False,NONE,yes,1,True,False,False,False,[],0
+3,Passage: Harry Potter and the Escape from Gringotts is an indoor steel roller coaster at Universal S,yes,yes,True,yes,True,yes,True,yes,True,False,NONE,yes,1,True,False,False,False,[],0
+4,Passage: Hydroxyzine preparations require a doctor's prescription. The drug is available in two form,yes,yes,True,yes,True,yes,True,yes,True,False,NONE,yes,1,True,False,False,False,[],0
+5,Passage: Barq's /ˈbɑːrks/ is an American soft drink. Its brand of root beer is notable for having ca,no,no,True,no,True,no,True,no,True,False,NONE,no,1,True,False,False,False,[],0
+6,"Passage: In mathematics, parity is the property of an integer's inclusion in one of two categories: ",yes,yes,True,yes,True,yes,True,yes,True,False,NONE,yes,1,True,False,False,False,[],0
+7,"Passage: Of the 71 words in this list, 67 are nouns, and most would generally be considered loanword",yes,yes,True,yes,True,yes,True,yes,True,False,NONE,yes,1,True,False,False,False,[],0
+8,Passage: Persons driving into Canada must have their vehicle's registration document and proof of in,yes,no,False,yes,True,no,False,no,False,True,KNOWLEDGE_GAP,yes,2,True,True,True,True,[0.21428571428571427],1
+9,Passage: The knockout stage of the 2018 FIFA World Cup was the second and final stage of the competi,yes,yes,True,yes,True,yes,True,yes,True,False,NONE,yes,1,True,False,False,False,[],1
+10,"Passage: In response to the National Minimum Drinking Age Act in 1984, which reduced by up to 10% th",yes,yes,True,yes,True,yes,True,yes,True,False,NONE,yes,1,True,False,False,False,[],1
+11,Passage: Bloodline was announced in October 2014 as part of a partnership between Netflix and Sony P,no,no,True,no,True,no,True,no,True,False,NONE,no,1,True,False,False,False,[],1
+12,"Passage: Shower gels for men may contain the ingredient menthol, which gives a cooling and stimulati",yes,no,False,no,False,no,False,no,False,True,LOGIC_GAP|LOGIC_GAP|LOGIC_GAP,no,3,False,True,False,False,"[0.42857142857142855, 0.42857142857142855, 0.42857142857142855]",4
+13,"Passage: The liver detoxifies and breaks down chemicals, poisons and other toxins that enter the bod",yes,yes,True,yes,True,yes,True,yes,True,False,NONE,yes,1,True,False,False,False,[],4
+14,Passage: Fantastic Beasts and Where to Find Them is a 2016 fantasy film directed by David Yates. A j,yes,yes,True,yes,True,yes,True,yes,True,False,NONE,yes,1,True,False,False,False,[],4
+15,"Passage: The Vampire Diaries, an American supernatural drama, was renewed for an eighth season by Th",yes,yes,True,yes,True,yes,True,yes,True,False,NONE,yes,1,True,False,False,False,[],4
+16,Passage: The Strangers is a 2008 American slasher film written and directed by Bryan Bertino. Kriste,yes,yes,True,yes,True,yes,True,yes,True,False,NONE,yes,1,True,False,False,False,[],0
+17,"Passage: In March 2012 it was announced that four universities -- Durham, Exeter, Queen Mary Univers",yes,yes,True,yes,True,yes,True,yes,True,False,NONE,yes,1,True,False,False,False,[],0
+18,Passage: The Resident is an American medical drama television series aired by Fox Broadcasting Compa,yes,yes,True,yes,True,yes,True,yes,True,False,NONE,yes,1,True,False,False,False,[],0
+19,Passage: Magnesium citrate is a magnesium preparation in salt form with citric acid in a 1:1 ratio (,yes,yes,True,yes,True,yes,True,yes,True,False,NONE,yes,1,True,False,False,False,[],0
+20,"Passage: Street Addressing will have the same street address of the post office, plus a ``unit numbe",no,no,True,no,True,no,True,no,True,False,NONE,no,1,True,False,False,False,[],0
+21,"Passage: A spark plug (sometimes, in British English, a sparking plug, and, colloquially, a plug) is",yes,yes,True,yes,True,yes,True,yes,True,False,NONE,yes,1,True,False,False,False,[],0
+22,"Passage: Ladies may wear a long (over the shoulders or to ankles) cloak usually called a cape, or a ",yes,no,False,yes,True,no,False,no,False,True,LOGIC_GAP|LOGIC_GAP,yes,3,True,True,True,False,"[0.42857142857142855, 0.42857142857142855]",2
+23,"Passage: Renunciation of U.S. citizenship was free until July 2010, at which time a fee of $450 was ",yes,yes,True,yes,True,yes,True,yes,True,False,NONE,yes,1,True,False,False,False,[],2
+24,"Passage: The Fire Tablet, formerly called the Kindle Fire, is a tablet computer developed by Amazon.",yes,no,False,no,False,no,False,no,False,True,MISREAD_PROBLEM,yes,2,True,True,True,True,[0.6428571428571429],3
+25,"Passage: The drinking age in Wisconsin is 21. Those under the legal drinking age may be served, poss",yes,yes,True,yes,True,yes,True,yes,True,False,NONE,yes,1,True,False,False,False,[],3
+26,Passage: Contour feathers are not uniformly distributed on the skin of the bird except in some group,yes,yes,True,yes,True,yes,True,yes,True,False,NONE,yes,1,True,False,False,False,[],3
+27,Passage: A new engine is broken in by following specific driving guidelines during the first few hou,no,no,True,no,True,no,True,no,True,False,NONE,no,1,True,False,False,False,[],3
+28,"Passage: The Enchanted Forest is an amusement park located in Turner in the U.S. state of Oregon, ne",yes,yes,True,yes,True,yes,True,yes,True,False,NONE,yes,1,True,False,False,False,[],3
+29,"Passage: On the grounds of the speedway is the Indianapolis Motor Speedway Museum, which opened in 1",yes,yes,True,yes,True,yes,True,yes,True,False,NONE,yes,1,True,False,False,False,[],3
+30,"Passage: As part of Marvel's Marvel NOW! initiative a new Deadpool ongoing series was launched, writ",yes,yes,True,yes,True,yes,True,yes,True,False,NONE,yes,1,True,False,False,False,[],3
+31,Passage: Benson & Hedges is a British brand of cigarettes owned by either Philip Morris Internationa,yes,yes,True,yes,True,yes,True,yes,True,False,NONE,yes,1,True,False,False,False,[],3
+32,Passage: The Commonwealth government has its own tax laws and Puerto Ricans are also required to pay,no,no,True,no,True,no,True,no,True,False,NONE,no,1,True,False,False,False,[],3
+33,Passage: The crank sensor can be used in combination with a similar camshaft position sensor to moni,yes,yes,True,yes,True,yes,True,yes,True,False,NONE,yes,1,True,False,False,False,[],3
+34,Passage: Indiana Jones and the Temple of Doom is a 1984 American action-adventure film directed by S,yes,yes,True,yes,True,yes,True,yes,True,False,NONE,yes,1,True,False,False,False,[],3
+35,"Passage: The untitled Avengers film, colloquially referred to as Avengers 4, is an upcoming American",yes,yes,True,yes,True,yes,True,yes,True,False,NONE,yes,1,True,False,False,False,[],3
+36,Passage: Announced in April 2000 at the New York Auto Show and arriving in late 2000 in Japan and Ja,no,no,True,no,True,no,True,no,True,False,NONE,no,1,True,False,False,False,[],3
+37,"Passage: Since the Copyright Act of 1909, United States musicians have had the right to record a ver",yes,yes,True,yes,True,yes,True,yes,True,False,NONE,yes,1,True,False,False,False,[],3
+38,Passage: The carbon-hydrogen bond (C--H bond) is a bond between carbon and hydrogen atoms that can b,no,no,True,no,True,no,True,no,True,False,NONE,no,1,True,False,False,False,[],3
+39,"Passage: In 2011, Philip Pullman remarked at the British Humanist Association annual conference that",no,no,True,no,True,no,True,no,True,False,NONE,no,1,True,False,False,False,[],3
+40,Passage: Columbus Day is a national holiday in many countries of the Americas and elsewhere which of,yes,yes,True,yes,True,yes,True,yes,True,False,NONE,yes,1,True,False,False,False,[],3
+41,"Passage: New Balance maintains a manufacturing presence in the United States, as well as in the Unit",no,no,True,no,True,no,True,no,True,False,NONE,no,1,True,False,False,False,[],3
+42,Passage: U.S. Highway 20 (US 20) is an east--west United States highway that stretches from the Paci,yes,no,False,yes,True,no,False,yes,True,False,NONE,yes,1,True,False,False,False,[],3
+43,Passage: Tomato purée is a thick liquid made by cooking and straining tomatoes. The difference betwe,no,no,True,no,True,no,True,no,True,False,NONE,no,1,True,False,False,False,[],3
+44,Passage: English orthography typically represents vowel sounds with the five conventional vowel lett,yes,yes,True,yes,True,yes,True,yes,True,False,NONE,yes,1,True,False,False,False,[],3
+45,"Passage: Tipping Point is a British television game show which began airing on ITV on 2 July 2012, a",yes,yes,True,yes,True,yes,True,yes,True,False,NONE,yes,1,True,False,False,False,[],3
+46,"Passage: The turkey vulture (Cathartes aura), also known in some North American regions as the turke",yes,yes,True,yes,True,yes,True,yes,True,False,NONE,yes,1,True,False,False,False,[],3
+47,"Passage: As of October 2008, a condor (four under par) hole-in-one on a par 5 hole had been recorded",yes,yes,True,yes,True,yes,True,yes,True,False,NONE,yes,1,True,False,False,False,[],3
+48,"Passage: MetLife Stadium is an American sports stadium located in East Rutherford, New Jersey, 8 mil",yes,yes,True,yes,True,yes,True,yes,True,False,NONE,yes,1,True,False,False,False,[],3
+49,"Passage: After the defeat in the 2016 Olympics, the USWNT underwent a year of experimentation which ",yes,no,False,no,False,no,False,no,False,True,KNOWLEDGE_GAP|KNOWLEDGE_GAP,no,3,False,True,False,False,"[0.21428571428571427, 0.21428571428571427]",4

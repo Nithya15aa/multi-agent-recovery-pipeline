@@ -1,0 +1,55 @@
+{
+  "n": 50,
+  "baseline_a_tsr": 0.88,
+  "baseline_b_tsr": 0.94,
+  "majority_tsr": 0.88,
+  "pipeline_tsr": 0.96,
+  "tsr_improvement": 0.08,
+  "fdr": 1.0,
+  "fpr": 0.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "verif_tp": 5,
+  "verif_fp": 0,
+  "verif_tn": 45,
+  "verif_fn": 0,
+  "rsr": 0.6,
+  "rsr_num": 3,
+  "rsr_den": 5,
+  "aat": 1.16,
+  "failure_type_counts": {
+    "KNOWLEDGE_GAP": 3,
+    "LOGIC_GAP": 5,
+    "MISREAD_PROBLEM": 1
+  },
+  "failure_type_recovered": {
+    "KNOWLEDGE_GAP": 1,
+    "LOGIC_GAP": 2,
+    "MISREAD_PROBLEM": 1
+  },
+  "surgical_attempts": 2,
+  "surgical_recovered": 2,
+  "pipeline_state": {
+    "taxonomy": [
+      "ARITHMETIC_ERROR",
+      "MISREAD_PROBLEM",
+      "MISSING_CONSTRAINT",
+      "LOGIC_GAP",
+      "KNOWLEDGE_GAP"
+    ],
+    "taxonomy_evolution_log": [],
+    "memory_size": 4,
+    "estimator_state": {
+      "('ARITHMETIC_ERROR', 'boolq')": 0.786,
+      "('MISREAD_PROBLEM', 'boolq')": 0.688,
+      "('MISSING_CONSTRAINT', 'boolq')": 0.5,
+      "('LOGIC_GAP', 'boolq')": 0.556,
+      "('KNOWLEDGE_GAP', 'boolq')": 0.167
+    },
+    "total_llm_calls": 221,
+    "approx_tokens": 120703
+  },
+  "config_name": "full_pipeline",
+  "domain": "boolq"
+}

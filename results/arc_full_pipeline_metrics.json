@@ -1,0 +1,55 @@
+{
+  "n": 200,
+  "baseline_a_tsr": 0.965,
+  "baseline_b_tsr": 0.97,
+  "majority_tsr": 0.965,
+  "pipeline_tsr": 1.0,
+  "tsr_improvement": 0.035,
+  "fdr": 1.0,
+  "fpr": 0.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "verif_tp": 7,
+  "verif_fp": 0,
+  "verif_tn": 193,
+  "verif_fn": 0,
+  "rsr": 1.0,
+  "rsr_num": 7,
+  "rsr_den": 7,
+  "aat": 1.035,
+  "failure_type_counts": {
+    "KNOWLEDGE_GAP": 5,
+    "MISSING_CONSTRAINT": 1,
+    "LOGIC_GAP": 1
+  },
+  "failure_type_recovered": {
+    "KNOWLEDGE_GAP": 5,
+    "MISSING_CONSTRAINT": 1,
+    "LOGIC_GAP": 1
+  },
+  "surgical_attempts": 7,
+  "surgical_recovered": 7,
+  "pipeline_state": {
+    "taxonomy": [
+      "ARITHMETIC_ERROR",
+      "MISREAD_PROBLEM",
+      "MISSING_CONSTRAINT",
+      "LOGIC_GAP",
+      "KNOWLEDGE_GAP"
+    ],
+    "taxonomy_evolution_log": [],
+    "memory_size": 3,
+    "estimator_state": {
+      "('ARITHMETIC_ERROR', 'arc')": 0.786,
+      "('MISREAD_PROBLEM', 'arc')": 0.643,
+      "('MISSING_CONSTRAINT', 'arc')": 0.5,
+      "('LOGIC_GAP', 'arc')": 0.5,
+      "('KNOWLEDGE_GAP', 'arc')": 0.389
+    },
+    "total_llm_calls": 649,
+    "approx_tokens": 304221
+  },
+  "config_name": "full_pipeline",
+  "domain": "arc"
+}
