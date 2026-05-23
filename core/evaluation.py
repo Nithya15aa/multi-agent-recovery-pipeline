@@ -1,17 +1,4 @@
-"""
-Optimized Evaluation Harness v2
-===============================
-Reduces API calls by ~40-60% vs original through:
-  1. Parallel baseline execution (A, B, majority run concurrently)
-  2. Resume from checkpoint (skip already-evaluated samples)
-  3. Merged verify+classify into single LLM call (saves 1 call per failure)
-  4. Shared first-pass output (baseline A reuses pipeline's first attempt)
-  5. Configurable: skip any baseline you already have data for
 
-API calls per sample comparison:
-  Original: ~12 calls (all baselines + pipeline + step attribution)
-  Optimized: ~5-7 calls (shared execution, merged prompts, parallel baselines)
-"""
 
 import csv
 import os
@@ -292,8 +279,7 @@ class EvaluationRunner:
                 rec_ok = rec_trig and p_ok
                 print(f"  Pipeline: {p_out} (att={res['attempts']}) → {'✓' if p_ok else '✗'}")
 
-                # ── Optimization: reuse pipeline first attempt as baseline A ──
-                # If we didn't run baselines separately, use pipeline's first pass
+                
                 if not run_baselines:
                     ba_out = res["first_attempt_ans"]
                     ba_ok = fa_ok
@@ -405,14 +391,7 @@ class EvaluationRunner:
 
 
 class MajorityOnlyRunner:
-    """
-    Ultra-lightweight runner that ONLY computes majority vote.
-    Use when you already have pipeline + baseline results and just
-    need to add the majority vote column.
-
-    Reads existing CSV, adds majority_output and majority_correct,
-    writes updated CSV. Costs exactly 3 API calls per sample.
-    """
+   
 
     def __init__(self, llm, domain, vectorizer):
         self.llm = llm
